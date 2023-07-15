@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ГЛЯНЕЦЬ</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/desktop/why_section/vector.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container header-wrapper">
+        <nav class="page-navigation">
+          <a href="./index.html" class="logo-header">
+            <svg class="logo-icon" width="266" height="71">
+              <use href="./images/sprite.svg#icon-logo"></use>
+            </svg>
+          </a>
+
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#why-section" class="menu-link">Чому ми?</a>
+            </li>
+            <li class="menu-item">
+              <a href="#customers-section" class="menu-link">Партнери</a>
+            </li>
+            <li class="menu-item">
+              <a href="#charity-section" class="menu-link">Благодійність</a>
+            </li>
+            <li class="menu-item">
+              <a href="#company-section" class="menu-link">Про нас</a>
+            </li>
+            <li class="menu-item">
+              <a href="#drupal-section" class="menu-link" lang="en">Drupal</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="media-list">
+          <li class="media-item">
+            <a href="#" class="media-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                viewBox="0 0 35 35"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 17.5C0 7.83502 7.83502 0 17.5 0C27.165 0 35 7.83502 35 17.5C35 27.165 27.165 35 17.5 35C7.83502 35 0 27.165 0 17.5Z"
+                  fill="#3B5998"
+                />
+                <rect width="35" height="35" rx="5" fill="#3B5998" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.324 27.7896V18.2687H21.9522L22.3005 14.9877H19.324L19.3285 13.3456C19.3285 12.4899 19.4098 12.0313 20.6389 12.0313H22.2819V8.75H19.6534C16.496 8.75 15.3847 10.3416 15.3847 13.0182V14.9881H13.4167V18.2691H15.3847V27.7896H19.324Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="media-item">
+            <a href="#" class="media-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                viewBox="0 0 35 35"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 17.5C0 7.83502 7.83502 0 17.5 0C27.165 0 35 7.83502 35 17.5C35 27.165 27.165 35 17.5 35C7.83502 35 0 27.165 0 17.5Z"
+                  fill="url(#paint0_linear_8_414)"
+                />
+                <rect
+                  width="35"
+                  height="35"
+                  rx="5"
+                  fill="url(#paint1_linear_8_414)"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.7079 17.5001C12.7079 14.8531 14.854 12.7069 17.501 12.7069C20.1479 12.7071 22.2933 14.8531 22.2933 17.5001C22.2933 20.1471 20.148 22.2922 17.501 22.2922C14.854 22.2922 12.7079 20.1471 12.7079 17.5001ZM20.6121 17.5003C20.6121 15.782 19.2191 14.3892 17.501 14.3892C15.7826 14.3892 14.3898 15.782 14.3898 17.5003C14.3898 19.2184 15.7826 20.6114 17.501 20.6114C19.2191 20.6114 20.6121 19.2184 20.6121 17.5003Z"
+                  fill="white"
+                />
+                <path
+                  d="M21.363 12.5182C21.363 11.8996 21.8647 11.3985 22.483 11.3985C23.1014 11.3985 23.6031 11.8998 23.6031 12.5182C23.6031 13.1365 23.1014 13.6382 22.483 13.6382C21.8647 13.6382 21.363 13.1365 21.363 12.5182Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M13.6524 8.22314C14.648 8.17783 14.9661 8.16675 17.5009 8.16675H17.498C20.0336 8.16675 20.3505 8.17783 21.3461 8.22314C22.3397 8.26864 23.0183 8.42595 23.6133 8.65675C24.2278 8.89495 24.7469 9.21384 25.2661 9.73301C25.7853 10.2518 26.1042 10.7725 26.3433 11.3864C26.5728 11.9798 26.7303 12.6581 26.777 13.6517C26.8217 14.6473 26.8334 14.9654 26.8334 17.5002C26.8334 20.035 26.8217 20.3523 26.777 21.3479C26.7303 22.3411 26.5728 23.0195 26.3433 23.6132C26.1042 24.2269 25.7853 24.7476 25.2661 25.2664C24.7475 25.7855 24.2276 26.1052 23.6139 26.3436C23.0201 26.5744 22.3411 26.7317 21.3474 26.7772C20.3519 26.8225 20.0347 26.8336 17.4997 26.8336C14.9651 26.8336 14.6472 26.8225 13.6516 26.7772C12.6582 26.7317 11.9798 26.5744 11.3859 26.3436C10.7725 26.1052 10.2517 25.7855 9.73315 25.2664C9.21417 24.7476 8.89528 24.2269 8.65669 23.613C8.42608 23.0195 8.26877 22.3413 8.22308 21.3477C8.17796 20.3521 8.16669 20.035 8.16669 17.5002C8.16669 14.9654 8.17835 14.6471 8.22288 13.6515C8.2676 12.6583 8.42511 11.9798 8.6565 11.3862C8.89567 10.7725 9.21456 10.2518 9.73373 9.73301C10.2525 9.21404 10.7732 8.89514 11.3871 8.65675C11.9806 8.42595 12.6588 8.26864 13.6524 8.22314ZM17.1899 9.84864C17.0011 9.84855 16.8262 9.84847 16.6636 9.84873V9.84639C14.9241 9.84834 14.5905 9.86001 13.7295 9.8989C12.8194 9.9407 12.3254 10.0924 11.9964 10.2207C11.5608 10.3903 11.2497 10.5925 10.923 10.9192C10.5963 11.2458 10.3937 11.5569 10.2246 11.9925C10.0968 12.3215 9.94475 12.8154 9.90313 13.7254C9.85841 14.7093 9.84947 15.0033 9.84947 17.4957C9.84947 19.9881 9.85841 20.2837 9.90313 21.2676C9.94455 22.1776 10.0968 22.6715 10.2246 23.0001C10.3941 23.4359 10.5963 23.7462 10.923 24.0729C11.2497 24.3995 11.5608 24.6018 11.9964 24.7709C12.3255 24.8987 12.8194 25.0507 13.7295 25.0927C14.7134 25.1375 15.0087 25.1472 17.5009 25.1472C19.993 25.1472 20.2885 25.1375 21.2724 25.0927C22.1824 25.0511 22.6767 24.8995 23.0053 24.7711C23.4411 24.602 23.7512 24.3997 24.0779 24.0731C24.4046 23.7466 24.6072 23.4365 24.7763 23.0009C24.9041 22.6723 25.0562 22.1784 25.0978 21.2684C25.1425 20.2845 25.1522 19.9889 25.1522 17.4981C25.1522 15.0072 25.1425 14.7116 25.0978 13.7277C25.0563 12.8177 24.9041 12.3238 24.7763 11.9952C24.6068 11.5597 24.4046 11.2485 24.0779 10.9219C23.7514 10.5952 23.4409 10.393 23.0053 10.2238C22.6763 10.0961 22.1824 9.94401 21.2724 9.9024C20.2883 9.85767 19.993 9.84873 17.5009 9.84873L17.1899 9.84864Z"
+                  fill="white"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_8_414"
+                    x1="29.4014"
+                    y1="35"
+                    x2="6.53485"
+                    y2="6.28319e-07"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop offset="0.1" stop-color="#E09B3D" />
+                    <stop offset="0.3" stop-color="#C74C4D" />
+                    <stop offset="0.6" stop-color="#C21975" />
+                    <stop offset="1" stop-color="#7024C4" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear_8_414"
+                    x1="29.4014"
+                    y1="35"
+                    x2="6.53485"
+                    y2="6.28319e-07"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop offset="0.1" stop-color="#E09B3D" />
+                    <stop offset="0.3" stop-color="#C74C4D" />
+                    <stop offset="0.6" stop-color="#C21975" />
+                    <stop offset="1" stop-color="#7024C4" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li class="media-item">
+            <a href="#" class="media-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                viewBox="0 0 35 35"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.5 35C27.165 35 35 27.165 35 17.5C35 7.83502 27.165 0 17.5 0C7.83502 0 0 7.83502 0 17.5C0 27.165 7.83502 35 17.5 35Z"
+                  fill="#675DA9"
+                />
+                <rect width="35" height="35" rx="5" fill="#675DA9" />
+                <path
+                  d="M27.3271 13.1001L27.3209 13.0754C26.8246 11.0519 24.5868 8.88067 22.5318 8.42895L22.5086 8.42414C19.1848 7.78473 15.8145 7.78473 12.4913 8.42414L12.4675 8.42895C10.4131 8.88067 8.17538 11.0519 7.67833 13.0754L7.67288 13.1001C7.05924 15.9259 7.05924 18.7916 7.67288 21.6174L7.67833 21.6421C8.15417 23.5792 10.2253 25.6507 12.2036 26.2204V28.4791C12.2036 29.2966 13.1915 29.6981 13.7534 29.1082L16.0228 26.7294C16.515 26.7571 17.0075 26.7726 17.5 26.7726C19.1732 26.7726 20.847 26.6131 22.5086 26.2934L22.5318 26.2886C24.5868 25.8369 26.8246 23.6656 27.3209 21.6422L27.3271 21.6174C27.9407 18.7916 27.9407 15.9259 27.3271 13.1001ZM25.5312 21.2076C25.1998 22.5277 23.5007 24.1688 22.1507 24.472C20.3833 24.8109 18.602 24.9558 16.8225 24.9061C16.7871 24.9051 16.753 24.9189 16.7284 24.9445C16.4758 25.2059 15.0713 26.6598 15.0713 26.6598L13.3088 28.4838C13.18 28.6193 12.9536 28.5271 12.9536 28.3401V24.5984C12.9536 24.5366 12.9098 24.4841 12.8496 24.4722L12.8486 24.472C11.4986 24.1687 9.80016 22.5276 9.46811 21.2075C8.91584 18.6533 8.91584 16.064 9.46811 13.5098C9.80016 12.1897 11.4986 10.5486 12.8486 10.2454C15.9352 9.65339 19.0648 9.65339 22.1507 10.2454C23.5014 10.5486 25.1998 12.1897 25.5312 13.5098C26.0841 16.0641 26.0841 18.6534 25.5312 21.2076Z"
+                  fill="white"
+                />
+                <path
+                  d="M20.4367 22.9346C20.2292 22.8711 20.0314 22.8284 19.8477 22.7515C17.9443 21.9552 16.1926 20.9279 14.805 19.3531C14.0159 18.4575 13.3983 17.4465 12.8763 16.3766C12.6287 15.8692 12.4201 15.3419 12.2074 14.8181C12.0135 14.3404 12.2991 13.8468 12.5999 13.4869C12.8821 13.1491 13.2452 12.8906 13.6385 12.7001C13.9454 12.5514 14.2482 12.6371 14.4724 12.8995C14.9571 13.4667 15.4022 14.0629 15.7627 14.7204C15.9844 15.1248 15.9235 15.6192 15.5218 15.8944C15.4242 15.9613 15.3352 16.0398 15.2442 16.1154C15.1645 16.1816 15.0894 16.2485 15.0347 16.3381C14.9348 16.5022 14.93 16.6957 14.9944 16.874C15.4898 18.2469 16.3248 19.3144 17.6951 19.8894C17.9144 19.9814 18.1346 20.0885 18.3872 20.0588C18.8103 20.009 18.9473 19.541 19.2437 19.2966C19.5335 19.0576 19.9038 19.0545 20.216 19.2537C20.5282 19.4529 20.8308 19.6668 21.1316 19.883C21.4269 20.0951 21.7209 20.3027 21.9933 20.5446C22.2552 20.7772 22.3454 21.0823 22.1979 21.398C21.9279 21.976 21.5351 22.457 20.9683 22.764C20.8083 22.8505 20.6172 22.8786 20.4367 22.9346C20.6172 22.8786 20.2292 22.871 20.4367 22.9346ZM17.5052 12.0391C19.9949 12.1094 22.0398 13.7755 22.478 16.2576C22.5526 16.6805 22.5792 17.1129 22.6124 17.5421C22.6264 17.7226 22.525 17.8942 22.3318 17.8965C22.1322 17.8989 22.0424 17.7305 22.0295 17.5501C22.0038 17.1928 21.986 16.834 21.9372 16.4797C21.6795 14.6095 20.2006 13.0623 18.3546 12.7303C18.0768 12.6803 17.7925 12.6672 17.5111 12.6374C17.3332 12.6185 17.1002 12.6077 17.0608 12.3847C17.0278 12.1978 17.1842 12.0489 17.3608 12.0394C17.4088 12.0367 17.457 12.0389 17.5052 12.0391C19.9949 12.1094 17.457 12.0389 17.5052 12.0391Z"
+                  fill="white"
+                />
+                <path
+                  d="M21.2888 16.9849C21.2847 17.0163 21.2825 17.09 21.2643 17.1594C21.1982 17.4115 20.8193 17.4431 20.732 17.1887C20.7062 17.1132 20.7023 17.0273 20.7021 16.946C20.7013 16.4143 20.5866 15.8831 20.3207 15.4204C20.0474 14.9449 19.6298 14.5452 19.1399 14.3033C18.8438 14.1571 18.5234 14.0662 18.1988 14.012C18.0569 13.9884 17.9136 13.974 17.771 13.954C17.5982 13.9298 17.506 13.8188 17.5141 13.6471C17.5218 13.4862 17.6384 13.3705 17.8122 13.3804C18.3836 13.4131 18.9355 13.5376 19.4434 13.8089C20.4764 14.3605 21.0664 15.2312 21.2387 16.3938C21.2464 16.4465 21.259 16.4986 21.2629 16.5515C21.2727 16.6821 21.2788 16.8128 21.2888 16.9849C21.2847 17.0163 21.2788 16.8128 21.2888 16.9849Z"
+                  fill="white"
+                />
+                <path
+                  d="M19.7402 16.9242C19.5319 16.928 19.4204 16.8117 19.3989 16.6192C19.384 16.4849 19.3722 16.3488 19.3404 16.2182C19.2778 15.9609 19.1422 15.7225 18.9276 15.5648C18.8263 15.4904 18.7115 15.4361 18.5912 15.4011C18.4384 15.3566 18.2797 15.3689 18.1273 15.3312C17.9617 15.2903 17.8702 15.1551 17.8962 14.9985C17.9199 14.856 18.0574 14.7447 18.2118 14.756C19.1771 14.8263 19.8669 15.3295 19.9654 16.4753C19.9724 16.5562 19.9805 16.6416 19.9627 16.719C19.9323 16.8514 19.835 16.9178 19.7402 16.9242C19.835 16.9178 19.5319 16.928 19.7402 16.9242Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <div class="contact-info">
+          <p class="work-schedule">Пн-Пт з 10 до 18</p>
+          <a href="tel:+0800759759" class="contact-phone">0 (800) 759-759</a>
+          <button type="button" class="contact-btn">
+            <svg class="contact-icon" width="24" height="25">
+              <use href="./images/sprite.svg#icon-chevron_down"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero-box">
+            <p class="hero-text">Вебстудія №1 з розробки сайтів</p>
+            <h1 class="hero-title">Приєднуйтесь до нашої IT-команди</h1>
+            <p class="hero-text">
+              Відкрийте нові перспективи кар'єрного зростання, приєднавшись до
+              нашої інноваційної IT-команди, яка відкриває двері до безмежних
+              можливостей
+            </p>
+            <button class="hero-btn" type="button">Спробуй свої сили</button>
+          </div>
+
+          <svg class="hero-icon-left" width="296" height="436">
+            <use href="./images/sprite.svg#icon-big-ball"></use>
+          </svg>
+
+          <svg class="hero-icon-center" width="218" height="218">
+            <use href="./images/sprite.svg#icon-ball"></use>
+          </svg>
+
+          <ul class="mark-list">
+            <li class="mark-item">
+              <button type="button" class="mark-btn"></button>
+            </li>
+            <li class="mark-item">
+              <button type="button" class="mark-btn"></button>
+            </li>
+            <li class="mark-item">
+              <button type="button" class="mark-btn"></button>
+            </li>
+            <li class="mark-item">
+              <button type="button" class="mark-btn"></button>
+            </li>
+            <li class="mark-item">
+              <button type="button" class="mark-btn"></button>
+            </li>
+          </ul>
+
+          <a href="#task-section" class="hero-link">Дізнатися більше</a>
+        </div>
+      </section>
+
+      <!-- TASK SECTION -->
+
+      <section class="task-section" id="task-section">
+        <div class="container">
+          <h2 class="task-title">Перевірка тествого завдання</h2>
+          <div class="task-wrapper">
+            <img
+              src="./images/desktop/employees.png"
+              alt="employees"
+              width="900"
+              height="464"
+            />
+            <div class="thumb">
+              <ul class="task-list">
+                <li class="task-item">
+                  <p class="task-text">
+                    Ми цінуємо ваш час та зусилля, тому намагаємося забезпечити
+                    оперативну відповідь на ваші тестові роботи. Наша команда
+                    керівників та співробітників займається перевіркою усіх
+                    робіт ВРУЧНУ перевіряє всі роботи, гарантуючи високу якість
+                    оцінки.
+                  </p>
+                </li>
+                <li class="task-item">
+                  <p class="task-text">
+                    <b>
+                      На першому етапі вашу роботу перевірить керівник
+                      HR-відділу — Олена, або Анатолій Валерійович — керівник
+                      вебстудії Глянець.
+                    </b>
+                  </p>
+                </li>
+                <li class="task-item">
+                  <p class="task-text">
+                    Перевірку другого етапу, в залежності від посади на яку ви
+                    претендуєте, буде здійснювати керівник відповідного відділу
+                    (наприклад, <b>керівник відділу верстки</b> у разі подання
+                    заявки на посаду верстальника).
+                  </p>
+                </li>
+                <li class="task-item">
+                  <p class="task-text">
+                    Ми розуміємо, як важливо для вас отримати швидку відповідь,
+                    тому перевіряємо ваші <b>тестові завдання</b> навіть після
+                    завершення робочого дня. Наша команда цінує кожного
+                    потенційного кандидата і робить усе можливе, щоб забезпечити
+                    ретельну оцінку ваших здібностей та швидко повідомити
+                    результат.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPANY SECTION -->
+
+      <section class="company-section" id="company-section">
+        <div class="container company-wrapper">
+          <div class="company-box">
+            <h2 class="company-title">Найкраща компанія для роботи в IT</h2>
+            <h3 class="company-subtitle">
+              Вебстудія Глянець — команда, яка налічує понад 50 професіоналів
+            </h3>
+            <p class="company-text">
+              Наша компанія має власний офіс, хостинг, проводить навчання
+              кадрів, здійснює контроль якості кожного проєкту.
+            </p>
+            <p class="company-text">
+              За час своєї роботи ми розробили сотні інтернет-магазинів, які
+              працюють у всіх країнах світу, продаючи своїм замовникам тисячі
+              товарів на добу.
+            </p>
+            <p class="company-text">
+              <b>Глянець</b> — це надійність. Перевірено досвідом!
+            </p>
+            <ul class="company-list">
+              <li class="company-item">
+                <a href="" class="company-link">
+                  <svg class="company-icon" width="105" height="66">
+                    <use href="./images/sprite.svg#icon-customer-logo"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="company-item">
+                <a href="" class="company-link">
+                  <svg class="company-icon" width="219" height="66">
+                    <use href="./images/sprite.svg#icon-customer-logo2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="company-item">
+                <a href="" class="company-link">
+                  <svg class="company-icon" width="206" height="34">
+                    <use href="./images/sprite.svg#icon-customer-logo3"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY SECTION -->
+
+      <section class="why-section" id="why-section">
+        <div class="container why-wrapper">
+          <h2 class="why-title">Чому ми?</h2>
+          <ul class="why-list">
+            <li class="why-item" data-aos="fade-right">
+              <div>
+                <h4 class="why-item-title">Зручний графік</h4>
+                <p class="why-item-text">
+                  Ми розуміємо, що кожна людина має унікальні потреби та
+                  обставини, тому пропонуємо гнучкий режим роботи, який враховує
+                  <b>індивідуальні вимоги</b> та дозволяє пристосуватися до них.
+                </p>
+              </div>
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-time"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-right">
+              <div>
+                <h4 class="why-item-title">Комфортний офіс</h4>
+                <p class="why-item-text">
+                  Для співробітників є комфортні
+                  <b>
+                    Для співробітників є комфортні робочі місця і зручні зони
+                    відпочинку Для співробітників є комфортні </b
+                  >, що сприяють розслабленню та відновленню енергії. Ми активно
+                  створюємо комфортні умови, щоб працювати з задоволенням.
+                </p>
+              </div>
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-location"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-right">
+              <div>
+                <h4 class="why-item-title">Відстуні перебої електрики</h4>
+                <p class="why-item-text">
+                  Попри всі складнощі воєнного часу, ми працюємо та здаємо всі
+                  проєкти вчасно! Використовуємо <b lang="en">Starlink</b>, тому
+                  завжди на звʼязку.
+                </p>
+              </div>
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-lightning"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-right">
+              <div>
+                <h4 class="why-item-title">Оперативне вирішення питань</h4>
+                <p class="why-item-text">
+                  Ми швидко опрацьовуємо будь-які звернення та запити, щоб
+                  надати вам негайну відповідь чи якнайшвидше
+                  <b>
+                    вам негайну відповідь чи якнайшвидше забезпечити розв'язання
+                    проблеми вам негайну відповідь чи якнайшвидше </b
+                  >. Комфорт та добробут наших співробітників завжди в
+                  пріоритеті!
+                </p>
+              </div>
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-meeting"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-right">
+              <div>
+                <h4 class="why-item-title">Ви не спілкуєтесь з клієнтами</h4>
+                <p class="why-item-text">
+                  В нашій компанії виконавцям не потрібно безпосередньо
+                  спілкуватись з клієнтами. Ми маємо відділ спеціалізованих
+                  менеджерів, які беруть на себе всі комунікації з клієнтами.
+                </p>
+              </div>
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-no-speak"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-left">
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-accounts"></use>
+                </svg>
+              </div>
+              <div>
+                <h4 class="why-item-title">Постійне зростання надходжень</h4>
+                <p class="why-item-text">
+                  У нашій компанії ми працюємо над тим, щоб надходження
+                  <b>
+                    У нашій компанії ми працюємо над тим, щоб надходження
+                    постійно зростали У нашій компанії ми працюємо над тим, щоб
+                    надходження </b
+                  >. Наша мета — допомогти вам досягти фінансового успіху.
+                </p>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-left">
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-client"></use>
+                </svg>
+              </div>
+              <div>
+                <h4 class="why-item-title">Постійний потік клієнтів</h4>
+                <p class="why-item-text">
+                  Ми пропонуємо стратегії та інструменти, які дозволять вам
+                  ефективно <b>просувати свої товари та послуги</b>,
+                  забезпечуючи стабільний ріст компанії.
+                </p>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-left">
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-diet"></use>
+                </svg>
+              </div>
+              <div>
+                <h4 class="why-item-title">Здорове харчування в офісі</h4>
+                <p class="why-item-text">
+                  Ми розуміємо, що харчування впливає на загальний стан здоров'я
+                  та продуктивність, тому дбаємо, щоб в офісі завжди були
+                  <b> корисні та безпечні продукти</b>, а також смачна питна
+                  вода високої якості.
+                </p>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-left">
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-workspace"></use>
+                </svg>
+              </div>
+              <div>
+                <h4 class="why-item-title">Сучасна техніка</h4>
+                <p class="why-item-text">
+                  Ми забезпечуємо всіх виконавців <b>сучасною технікою від</b>
+                  <b lang="en">Apple</b>. Кожен співробітник отримує свій
+                  власний MacBook, що дозволяє працювати з надійним та потужним
+                  обладнанням, якісно виконувати будь-які поточні завдання.
+                </p>
+              </div>
+            </li>
+            <li class="why-item" data-aos="fade-left">
+              <div class="why-icon-box">
+                <svg class="why-icon" width="40" height="40">
+                  <use href="./images/sprite.svg#icon-xbox"></use>
+                </svg>
+              </div>
+              <div>
+                <h4 class="why-item-title">Відпочинок та розваги</h4>
+                <p class="why-item-text">
+                  Ми облаштували комфортні зони відпочинку на свіжому повітрі.
+                  Окрім цього, в офісі є <b lang="en">PlayStation</b>
+                  <b>та VR-окуляри</b>, тож під час перерв або після робочого
+                  дня завжди можна розважитися.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <svg width="500" height="500" class="circle-wrapper">
+            <circle class="circle" cx="250" cy="250" r="185" />
+          </svg>
+
+          <div class="carousel-wrapper">
+            <button type="button" class="arrow-btn left-arrow">
+              <svg class="arrow-icon" width="34" height="24">
+                <use href="./images/sprite.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button type="button" class="arrow-btn right-arrow">
+              <svg class="arrow-icon" width="34" height="24">
+                <use href="./images/sprite.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+
+            <div class="gallery">
+              <ul class="why-list-images js-list-img">
+                <li class="why-item-images">
+                  <img
+                    src="./images/desktop/why_section/IMG_1.jpg"
+                    alt="employees"
+                    width="432"
+                    height="288"
+                    class="why-item-img"
+                  />
+                </li>
+                <li class="why-item-images">
+                  <img
+                    src="./images/desktop/why_section/IMG_2.jpg"
+                    alt="employees"
+                    width="432"
+                    height="288"
+                    class="why-item-img"
+                  />
+                </li>
+                <li class="why-item-images">
+                  <img
+                    src="./images/desktop/why_section/IMG_3.jpg"
+                    alt="employees"
+                    width="432"
+                    height="288"
+                    class="why-item-img"
+                  />
+                </li>
+                <li class="why-item-images">
+                  <img
+                    src="./images/desktop/why_section/IMG_4.jpg"
+                    alt="employees"
+                    width="432"
+                    height="288"
+                    class="why-item-img"
+                  />
+                </li>
+
+                <li class="why-item-images">
+                  <img
+                    src="./images/desktop/why_section/IMG_2.jpg"
+                    alt="employees"
+                    width="432"
+                    height="288"
+                    class="why-item-img"
+                  />
+                </li>
+                <li class="why-item-images">
+                  <img
+                    src="./images/desktop/why_section/IMG_3.jpg"
+                    alt="employees"
+                    width="432"
+                    height="288"
+                    class="why-item-img"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DRUPAL SECTION -->
+
+      <section class="drupal-section" id="drupal-section">
+        <div class="container">
+          <h2 class="drupal-title">Наш вклад в Drupal</h2>
+          <ul class="drupal-list">
+            <li class="drupal-item">
+              <svg class="drupal-icon" width="226" height="46">
+                <use href="./images/sprite.svg#icon-drupal-logo1"></use>
+              </svg>
+              <h4 class="drupal-subtitle">
+                Ми зробили сайт спільноти drupal.ua
+              </h4>
+              <p class="drupal-text">
+                Ми розуміємо, що кожна людина має унікальні потреби та
+                обставини, тому пропонуємо гнучкий режим роботи, який враховує
+                <b>індивідуальні вимоги</b> та дозволяє пристосуватися до них.
+              </p>
+            </li>
+            <li class="drupal-item">
+              <svg class="drupal-icon" width="92" height="46">
+                <use href="./images/sprite.svg#icon-drupal-logo2"></use>
+              </svg>
+              <h4 class="drupal-subtitle">Робимо вклад в Open Source</h4>
+              <p class="drupal-text">
+                Drupal – це не тільки широке міжнародне співтовариство, але й
+                потужна технологія OpenSource.
+                <b>Наша команда створює публікує власні модулі та теми </b>
+                оформлення на Drupal.org.
+              </p>
+            </li>
+            <li class="drupal-item">
+              <svg class="drupal-icon" width="152" height="46">
+                <use href="./images/sprite.svg#icon-customer-logo2"></use>
+              </svg>
+              <h4 class="drupal-subtitle">
+                Дали людям безкоштовно e-commerce платформу
+              </h4>
+              <p class="drupal-text">
+                Alternative commerce - безкоштовний 100% готовий сайт-магазин на
+                основі Drupal. Ви можете завантажити та
+                <b>почати робити покупки на своєму хостингу! </b> Або за нашої
+                підтримки та хостингу!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CUSTOMERS SECTION -->
+
+      <section class="customers-section" id="customers-section">
+        <div class="container customers-wrapper">
+          <h2 class="customers-title">З нами працюють:</h2>
+
+          <div class="carousel-wrapper">
+            <button type="button" class="arrow-btn left-btn">
+              <svg class="arrow-icon" width="34" height="24">
+                <use href="./images/sprite.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button type="button" class="arrow-btn right-btn">
+              <svg class="arrow-icon" width="34" height="24">
+                <use href="./images/sprite.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+
+            <div class="gallery">
+              <ul class="customers-list">
+                <li class="customers-item">
+                  <a href="#" class="customers-link">
+                    <svg class="customers-icon" width="138" height="80">
+                      <use href="./images/sprite.svg#icon-toyota"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="customers-item">
+                  <a href="#" class="customers-link">
+                    <svg class="customers-icon" width="232" height="80">
+                      <use href="./images/sprite.svg#icon-bravo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="customers-item">
+                  <a href="#" class="customers-link">
+                    <img
+                      src="./images/desktop/customers/apteka.png"
+                      alt="logo-pharmacy"
+                      width="232"
+                      height="80"
+                    />
+                  </a>
+                </li>
+                <li class="customers-item">
+                  <a href="#" class="customers-link">
+                    <svg class="customers-icon" width="232" height="80">
+                      <use href="./images/sprite.svg#icon-gemix"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="customers-item">
+                  <a href="#" class="customers-link">
+                    <svg class="customers-icon" width="232" height="80">
+                      <use href="./images/sprite.svg#icon-csd"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="customers-item">
+                  <a href="#" class="customers-link">
+                    <svg class="customers-icon" width="232" height="80">
+                      <use href="./images/sprite.svg#icon-momentum"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="customers-item">
+                  <a href="#" class="customers-link">
+                    <svg class="customers-icon" width="232" height="80">
+                      <use href="./images/sprite.svg#icon-bravo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="customers-item">
+                  <a href="#" class="customers-link">
+                    <svg class="customers-icon" width="232" height="80">
+                      <use href="./images/sprite.svg#icon-gemix"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHARITY SECTION -->
+
+      <section class="charity-section" id="charity-section">
+        <div class="container charity-wrapper">
+          <div class="charity-box">
+            <h2 class="charity-title">Благодійність</h2>
+            <p class="charity-subtitle">
+              Наша місія — зробити світ кращим, і ми віримо, що благодійність є
+              одним з ключових інструментів для досягнення цієї мети.
+            </p>
+            <p class="charity-text">
+              Ми вважаємо, що кожен бізнес має відповідальність перед
+              суспільством, у якому він працює. Тому наша компанія докладає
+              максимальних зусиль для підтримки благодійних організацій,
+              проєктів, соціальних ініціатив та робить усе можливе для
+              пришвидшення нашої перемоги, допомагаючи Збройним силам України.
+            </p>
+          </div>
+
+          <img
+            src="./images/desktop/charity_section/bitmap2.png"
+            alt="devices"
+            width="518"
+            height="352"
+            class="devices-img"
+          />
+          <img
+            src="./images/desktop/charity_section/bitmap.png"
+            alt="workspace"
+            width="413"
+            height="347"
+            class="workspace-img"
+          />
+          <img
+            src="./images/desktop/charity_section/IMG_4906.png"
+            alt="employees"
+            width="375"
+            height="280"
+            class="employees-img"
+          />
+
+          <ul class="charity-list">
+            <li class="charity-item">
+              <svg class="charity-icon" width="80" height="80">
+                <use href="./images/sprite.svg#icon-svg-gobbler"></use>
+              </svg>
+              <h4 class="charity-item-title">Допомога ЗСУ</h4>
+              <p class="charity-item-text">
+                Наші герої потребують уваги та підтримки, тому будь-яка
+                допомога, навіть найменша, важлива. Разом — ми сила!
+              </p>
+            </li>
+            <li class="charity-item">
+              <svg class="charity-icon" width="80" height="80">
+                <use href="./images/sprite.svg#icon-svg-gobbler2"></use>
+              </svg>
+              <h4 class="charity-item-title">Пункт незламності</h4>
+              <p class="charity-item-text">
+                Восени 2022 року, коли країна перебувала під загрозою блекауту,
+                ми добровільно облаштували “Пункт незламності” в нашому офісі.
+              </p>
+            </li>
+            <li class="charity-item">
+              <svg class="charity-icon" width="80" height="80">
+                <use href="./images/sprite.svg#icon-svg-gobbler3"></use>
+              </svg>
+              <h4 class="charity-item-title">Компʼютерний клас</h4>
+              <p class="charity-item-text">
+                Здійснили повне оновлення комп'ютерного класу у КЗ "Зарванецька
+                гімназія". Цей проєкт був частиною соціальної відповідальності
+                та прагнення покращити освітні умови для молодого покоління.
+              </p>
+            </li>
+            <li class="charity-item">
+              <svg class="charity-icon" width="80" height="80">
+                <use href="./images/sprite.svg#icon-svg-gobbler4"></use>
+              </svg>
+              <h4 class="charity-item-title">
+                Стерилізація і вакцинація місцевих тварин
+              </h4>
+              <p class="charity-item-text">
+                Стерилізація допомагає контролювати розмноження безпритульних
+                тварин та зменшити їх кількість в майбутньому.
+              </p>
+            </li>
+            <li class="charity-item">
+              <svg class="charity-icon" width="80" height="80">
+                <use href="./images/sprite.svg#icon-svg-gobbler5"></use>
+              </svg>
+              <h4 class="charity-item-title">Прибирання “Чижової посадки”</h4>
+              <p class="charity-item-text">
+                Минулого року була проведена екологічна акція прибирання
+                лісового масиву “Чижова посадка”. За участю добровольців було
+                зібрано близько ста мішків сміття, яке вивозили трьома
+                вантажівками.
+              </p>
+            </li>
+            <li class="charity-item">
+              <svg class="charity-icon" width="80" height="80">
+                <use href="./images/sprite.svg#icon-learning"></use>
+              </svg>
+              <h4 class="charity-item-title">Додаткові проєкти</h4>
+              <p class="charity-item-text">
+                Одним із наступних проєктів, який вже невдовзі буде реалізовано
+                – будиночки для безкоштовного обміну дитячою літературою. Його
+                задум має назву "Читацький клуб".
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer-section">
+      <div class="container footer-wrapper">
+        <div class="logo-box">
+          <a href="./index.html" class="logo">
+            <svg class="logo-icon" width="266" height="71">
+              <use href="./images/sprite.svg#icon-logo-footer"></use>
+            </svg>
+          </a>
+          <p class="logo-text">
+            Компанія працює з 2008 року під брендом Глянець. Ми використовуємо
+            для роботи лише власну нерухомість, техніку та сервери. Виконуємо
+            всі замовлення виключно своїми ресурсами, залучаємо до роботи лише
+            штатних працівників. Завдяки цьому нас цінують як надійного партнера
+            та підрядника.
+          </p>
+          <p class="logo-subtext">
+            &#169; 2023 Глянець&#8482; &nbsp;— Розробка та підтримка сайтів
+          </p>
+        </div>
+        <div class="contacts-box">
+          <p class="contacts-title">Зателефонуйте нам</p>
+          <ul class="contacts-list-footer">
+            <li class="contacts-item-footer">
+              <a href="tel:+0800759759" class="contact-phone-footer"
+                >0 (800) <b>759-759</b> доб. 103</a
+              >
+            </li>
+            <li class="contacts-item-footer">
+              <a href="mailto:order@glyanec.net" class="contact-mail link"
+                ><b>order</b>@glyanec.net</a
+              >
+            </li>
+            <li class="contacts-item-footer">
+              <ul class="social-media-list">
+                <li class="social-media-item">
+                  <a href="#" class="social-media-link">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="23"
+                      viewBox="0 0 13 23"
+                      fill="none"
+                    >
+                      <path
+                        d="M12.4999 0.888786V0.888831V4.93408C12.4999 5.14527 12.3264 5.32291 12.1044 5.32291H9.04742C8.70671 5.32291 8.42405 5.59824 8.42405 5.94539V8.09046V8.59046H8.92405H12.1044C12.2278 8.59046 12.343 8.64687 12.4173 8.74142L12.4174 8.74146C12.4915 8.83571 12.5173 8.95783 12.4884 9.07278L11.4694 13.1179C11.4263 13.2892 11.2696 13.4133 11.0854 13.4133H8.92405H8.42405V13.9133V21.1149C8.42405 21.3261 8.25054 21.5037 8.02847 21.5037H3.95253C3.73048 21.5037 3.55694 21.3261 3.55694 21.1149V13.9133V13.4133H3.05694H0.895583C0.673534 13.4133 0.5 13.2357 0.5 13.0245V8.97925C0.5 8.76808 0.67355 8.59042 0.895583 8.59042H3.05694H3.55694V8.09042V5.94535C3.55694 2.9468 6.01683 0.5 9.04746 0.5H12.1044C12.3265 0.5 12.5 0.677645 12.4999 0.888786ZM11.4422 9.99026L11.5989 9.36812H10.9573H8.02847C7.80637 9.36812 7.63284 9.19044 7.63284 8.97929V5.94539C7.63284 5.17738 8.26428 4.54525 9.04742 4.54525H11.2088H11.7088V4.04525V1.7777V1.2777H11.2088H9.04742C6.45929 1.2777 4.34807 3.36764 4.34807 5.94539V8.97929C4.34807 9.19046 4.17452 9.36812 3.95248 9.36812H1.79112H1.29112V9.86812V12.1357V12.6357H1.79112H3.95248C4.17453 12.6357 4.34807 12.8133 4.34807 13.0245V20.2261V20.7261H4.84807H7.13284H7.63284V20.2261V13.0245C7.63284 12.8133 7.80634 12.6357 8.02842 12.6357H10.3861H10.7758L10.871 12.2578L11.4422 9.99026Z"
+                        fill="white"
+                        stroke="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media-item">
+                  <a href="#" class="social-media-link">
+                    <svg class="social-media-icon" width="22" height="23">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media-item">
+                  <a href="#" class="social-media-link">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="20"
+                      viewBox="0 0 30 20"
+                      fill="none"
+                    >
+                      <path
+                        d="M13.9506 3.14385C12.6029 2.11151 10.9398 1.50183 9.14035 1.50183C4.64456 1.50183 1 5.30741 1 10.0018C1 14.6963 4.64456 18.5018 9.14035 18.5018C13.6361 18.5018 17.2807 14.2713 17.2807 9.57683C12.3965 9.57683 11.0398 9.57683 10.7684 9.57683"
+                        stroke="white"
+                        stroke-width="1.9"
+                      />
+                      <path
+                        d="M25.4212 2.03296V6.81421M25.4212 11.5955V6.81421M25.4212 6.81421H30.0002H20.8423"
+                        stroke="white"
+                        stroke-width="1.6"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media-item">
+                  <a href="#" class="social-media-link">
+                    <svg class="social-media-icon" width="22" height="19">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="address-box">
+          <p class="address-title">Адреса нашого офісу</p>
+          <address class="address-footer">
+            21016, Україна, м. Вінниця,
+            <b>с. Зарванці, вул. Архітектурна, 5А</b>
+          </address>
+          <a
+            href="https://maps.google.com?saddr=Current+Location&daddr=49.234384,28.394405"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="address-gps"
+            >GPS: 49.234384, 28.394405</a
+          >
+        </div>
+
+        <div class="startups">
+          <p class="startups-title">Наші стартапи</p>
+          <ul class="startups-list">
+            <li class="startups-item">
+              <a href="#" class="startups-link">
+                <svg class="company-icon" width="95" height="60">
+                  <use href="./images/sprite.svg#icon-customer-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="startups-item">
+              <a href="#" class="startups-link">
+                <svg width="196" height="60">
+                  <use href="./images/sprite.svg#icon-footer-company"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="startups-item">
+              <a href="#" class="startups-link">
+                <svg width="207" height="34">
+                  <use href="./images/sprite.svg#icon-footer-company2"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./index.js"></script>
+  </body>
+</html>
